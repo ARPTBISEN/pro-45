@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+
+
+
+
+    <script type="text/javascript">
+        function resetGame() {
+            if (confirm("Are you sure you want to RESTART the game")) {
+                location.reload();
+            }
+        }
+    </script>
+
+</head>
+
+<body bgcolor="#90c5ff">
+    <script src="sketch.js"></script>
+<div align = "center" class="container"  >
+<button style="background-color: lightgreen;" text="RESTART" onclick="resetGame()" >
+    <div textcolor="red">
+        <font color="red">  
+        RESET
+        </font>
+    </div>
+</button>
+</div>
+</body>
+
+</html>
